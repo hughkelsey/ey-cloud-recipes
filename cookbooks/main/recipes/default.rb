@@ -39,6 +39,7 @@
 
 #uncomment to run the resque recipe
  require_recipe "resque"
+ require_recipe "resque_yml"
 
 #uncomment to run the resque-scheduler recipe
  require_recipe "resque-scheduler"

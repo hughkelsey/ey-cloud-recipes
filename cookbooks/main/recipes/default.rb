@@ -101,7 +101,7 @@ require_recipe "redis"
 #end
 
 #uncomment to include the newrelic_server_monitoring recipe
-require_recipe "newrelic_server_monitoring"
+#require_recipe "newrelic_server_monitoring"
 
 # To install a Jenkins environment, uncomment below
 # include_recipe "jenkins"

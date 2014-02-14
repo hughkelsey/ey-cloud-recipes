@@ -21,6 +21,7 @@
 
 #uncomment to turn on memcached
 include_recipe "memcached"
+include_recipe "le"
 
 #uncomment ot run the riak recipe
 # include_recipe "riak"

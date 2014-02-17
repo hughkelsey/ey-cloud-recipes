@@ -62,7 +62,7 @@ include_recipe "le"
 # include_recipe "redis-yml"
 
 #uncomment to run the resque-scheduler recipe
- require_recipe "resque-scheduler"
+ require_recipe "resque-scheduler" if ['app_master'].include?(node[:instance_role])
 
 #uncomment to run the redis recipe
 require_recipe "redis"
